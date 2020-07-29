@@ -1,6 +1,26 @@
 
 # Analysis script and data accompanying Falsifying the Common Path Hypothesis in Judgments of Frequency and Duration
 
+## Download repo
+
+You can download the repo in the normal way or do it with `usethis`
+(install it if you do not have it):
+
+``` r
+# install.packages("usethis")
+usethis::use_course("https://github.com/johannes-titz/commonpath/archive/master.zip")
+```
+
+    ## ✓ Downloading from 'https://github.com/johannes-titz/commonpath/archive/master.zip'
+
+    ## 
+
+    ## ✓ Download stored in '/home/jt/commonpath-master.zip'
+
+    ## ✓ Unpacking ZIP file into 'commonpath-master/' (9 files extracted)
+
+Then fire up `R` (or some GUI) in the chosen directory.
+
 ## Install and load dependencies
 
 ``` r
