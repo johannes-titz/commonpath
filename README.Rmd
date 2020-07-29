@@ -15,16 +15,14 @@ usethis::use_course("https://github.com/johannes-titz/commonpath/archive/master.
 
 Then fire up `R` (or some GUI) in the chosen directory.
 
-## Install and load dependencies
+## Install dependencies
 
 ```{r eval=FALSE, message=FALSE, warning=FALSE, include=TRUE}
 install.packages(c("xtable", "tidyverse", "ggplot2", "extrafont",
                    "psychometric", "readr"))
-lapply(c("xtable", "tidyverse", "ggplot2", "extrafont",
-         "psychometric", "readr"), require, character.only = TRUE)
 ```
 
-## Run Script
+## Run Scripts
 
 ```{r message=FALSE, warning=FALSE}
 source("1-prepare.R")
