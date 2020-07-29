@@ -13,24 +13,24 @@ usethis::use_course("https://github.com/johannes-titz/commonpath/archive/master.
 
     ## ✓ Downloading from 'https://github.com/johannes-titz/commonpath/archive/master.zip'
 
+    ## Downloaded: 0.01 MB  Downloaded: 0.01 MB  Downloaded: 0.01 MB  Downloaded: 0.01 MB  Downloaded: 0.01 MB  Downloaded: 0.01 MB
+
     ## 
 
     ## ✓ Download stored in '/home/jt/commonpath-master.zip'
 
-    ## ✓ Unpacking ZIP file into 'commonpath-master/' (9 files extracted)
+    ## ✓ Unpacking ZIP file into 'commonpath-master/' (13 files extracted)
 
 Then fire up `R` (or some GUI) in the chosen directory.
 
-## Install and load dependencies
+## Install dependencies
 
 ``` r
 install.packages(c("xtable", "tidyverse", "ggplot2", "extrafont",
                    "psychometric", "readr"))
-lapply(c("xtable", "tidyverse", "ggplot2", "extrafont",
-         "psychometric", "readr"), require, character.only = TRUE)
 ```
 
-## Run Script
+## Run Scripts
 
 ``` r
 source("1-prepare.R")
