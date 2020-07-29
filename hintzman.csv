@@ -1,0 +1,13 @@
+paper,manuscript,study_number,condition,iv,dv,df2,n,sig_type_orig,stim_type_num,att_type_num,strict_monotonicity,exclude_from_meta_analysis,exclude_from_moderator_analysis,comment,jod_type,d_type,f_mean,f_range,d_mean,d_range,within,rc,r_es
+Hintzman1970,NA,1,NA,f,jof,113,117,FALSE,0,0,NA,NA,NA,exp1,,single,2.75,4,4,4,TRUE,0.8644093818430851,0.8545912399602951
+Hintzman1970,NA,1,NA,d,jof,113,117,FALSE,0,0,NA,NA,NA,exp1,,single,2.75,4,4,4,TRUE,0.14033137547358882,0.0510900721979756
+Hintzman1970,NA,1,NA,f,jod,106,107,FALSE,0,0,NA,NA,NA,exp2,single,single,2.75,4,4,4,TRUE,0.8198978774063186,0.7742364138929371
+Hintzman1970,NA,1,NA,d,jod,106,107,FALSE,0,0,NA,NA,NA,exp2,single,single,2.75,4,4,4,TRUE,0.5923579461048305,0.31654456342345216
+Hintzman1970,NA,3,NA,f,jod,105,108,FALSE,0,0,NA,NA,NA,,single,single,2.75,4,4,4,TRUE,0.8401190058330392,0.7202999523848947
+Hintzman1970,NA,3,NA,d,jod,105,108,FALSE,0,0,NA,NA,NA,,single,single,2.75,4,4,4,TRUE,0.3881901334573842,0.2976693019125223
+Hintzman1970,NA,3,NA,f,jof,105,108,FALSE,0,0,NA,NA,NA,,,single,2.75,4,4,4,TRUE,0.9091066839574239,0.884459226835598
+Hintzman1970,NA,3,NA,d,jof,105,108,FALSE,0,0,NA,NA,NA,,,single,2.75,4,4,4,TRUE,0.37601227616394045,0.10154405667453056
+Hintzman1975,NA,3,NA,f,jod,81,82,FALSE,1,0,NA,NA,NA,dv is jod under recognition,single,single,2,2,5.2,6,TRUE,0.5409033362939942,0.37320148797082636
+Hintzman1975,NA,3,NA,d,jod,81,82,FALSE,1,0,NA,NA,NA,dv is jod under recognition,single,single,2,2,5.2,6,TRUE,0.8256687472329148,0.7489747381204196
+Hintzman1975,NA,3,NA,f,jof,81,82,FALSE,1,0,NA,NA,NA,dv is jod under recognition,,single,2,2,5.2,6,TRUE,0.961514803637555,0.9435138402463761
+Hintzman1975,NA,3,NA,d,jof,81,82,FALSE,1,0,NA,NA,NA,dv is jod under recognition,,single,2,2,5.2,6,TRUE,0.5787705672009661,0.09902189281137828
