@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-# Analysis script and data accompanying Falsifying the Common Path Hypothesis in Judgments of Frequency and Duration
+# Analysis script and data accompanying Judgments of Frequency and Duration: One or Two Underlying Dimensions?
 
 ## Download repo
 
