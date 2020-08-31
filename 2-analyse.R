@@ -51,7 +51,7 @@ ggplot(a2, aes(x=diff_f, y=diff_d, color = as.factor(sum_score),
   annotate("text", 0.75, 0.75, vjust = 1, hjust = 1,
     label = paste('Only 3 of 38 studies lie in the first',
                   'quadrant and are consistent with a',
-                  '"common path" hypothesis.', sep = "\n"),
+                  'unidimensional model.', sep = "\n"),
     family = "CM Roman")
 dev.off()
 
@@ -73,7 +73,7 @@ colnames(a2)  <- c("Study", "Attention", "D type", "d type", "$\\BDd$",
 table <- a2 %>%
   filter(`Condition 1` == TRUE & `Condition 2` == TRUE) %>%
   select(-Attention, -`Condition 1`, -`Condition 2`, -`D type`, -`d type`) %>%
-  xtable(caption = "Effects consistent with the common path hypothesis.",
+  xtable(caption = "Effects consistent with the unidimensional hypothesis.",
                  label = "tab:consistentEffects",
                  # align = rep("r", 9),
                  digits = 2,
