@@ -43,15 +43,17 @@ ggplot(a2, aes(x=diff_f, y=diff_d, color = as.factor(sum_score),
   scale_y_continuous(expression(paste(italic(beta["Fd"]), " - ",
                                       italic(beta["Dd"]))),
                      limits = c(-0.75, 0.75)) +
-  science_theme_without_border_without_grid +
   theme_bw() +
+  science_theme_without_border_without_grid +
+
   theme(text = element_text(family = "CM Roman"),
         legend.key = element_rect(colour = 'transparent',
-                                  fill = 'transparent')) +
+                                  fill = 'transparent'),
+        legend.box = "horizontal") +
   annotate("text", 0.75, 0.75, vjust = 1, hjust = 1,
     label = paste('Only 3 of 38 studies lie in the first',
-                  'quadrant and are consistent with a',
-                  'unidimensional model.', sep = "\n"),
+                  'quadrant and are not inconsistent with',
+                  'a unidimensional model.', sep = "\n"),
     family = "CM Roman")
 dev.off()
 

@@ -1,7 +1,7 @@
 science_theme = theme_bw(base_size = 14) +
   theme(
     axis.line = element_line(size = .2, color = "black"),
-    legend.position = c(0, 1),
+    legend.position = c(0.02, 1),
     legend.justification = c(0, 1),
     legend.box.just = "left",
     legend.background = element_rect(fill = 'transparent'),
