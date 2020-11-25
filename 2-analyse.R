@@ -75,10 +75,10 @@ colnames(a2)  <- c("Study", "Attention", "D type", "d type", "$\\BDd$",
 table <- a2 %>%
   filter(`Condition 1` == TRUE & `Condition 2` == TRUE) %>%
   select(-Attention, -`Condition 1`, -`Condition 2`, -`D type`, -`d type`) %>%
-  xtable(caption = "Effects consistent with the unidimensional hypothesis.",
+  xtable(caption = "\\label{tab:consistentEffects}Effects consistent with the unidimensional hypothesis.",
                  label = "tab:consistentEffects",
                  # align = rep("r", 9),
                  digits = 2,
-                 auto = T, booktabs = TRUE)
+                 auto = T, booktabs = TRUE, align = "rrrrrrrrr")
 print(table, file = "tables/tableConsistentEffects.tex",
       sanitize.text.function = function(x){x})
